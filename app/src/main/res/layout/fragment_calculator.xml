@@ -25,6 +25,19 @@
             app:layout_constraintStart_toEndOf="@+id/editText50cent"
             app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/EURO"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView14"
+            app:layout_constraintTop_toBottomOf="@+id/editText200euro" />
+
         <EditText
             android:id="@+id/editText200euro"
             android:layout_width="80dp"

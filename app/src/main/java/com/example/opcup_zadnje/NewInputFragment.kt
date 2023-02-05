@@ -25,6 +25,10 @@ class NewInputFragment : Fragment(),RecyclerViewAdapter.ContentListener {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_new_input, container, false)
 
+        val qImageView = view.findViewById<ImageView>(R. id.imageView)
+
+        qImageView.setImageResource(R.drawable.carinski_grb_2020_plava);
+
         val prevBtn = view.findViewById<Button>(R.id.buttonBack)
 
         prevBtn.setOnClickListener {

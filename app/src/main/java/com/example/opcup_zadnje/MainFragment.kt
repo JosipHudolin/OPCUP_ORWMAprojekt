@@ -1,12 +1,16 @@
 package com.example.opcup_zadnje
 
 import android.annotation.SuppressLint
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.ImageView
+import androidx.fragment.app.Fragment
+
 
 class MainFragment : Fragment() {
 
@@ -19,6 +23,17 @@ class MainFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_main, container, false)
 
         val newInputBtn = view.findViewById<Button>(R.id.buttonNewInput)
+
+        val qImageView = view.findViewById<ImageView>(R.id.imageViewNaslovna)
+
+        qImageView.setImageResource(R.drawable.carinski_grb_2020_plava);
+
+        val linkBtn = view.findViewById<Button>(R.id.buttonLink)
+
+        linkBtn.setOnClickListener {
+            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://mfin.gov.hr/"))
+            startActivity(browserIntent)
+        }
 
         newInputBtn.setOnClickListener{
             val fragment = NewInputFragment()

@@ -20,14 +20,14 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/carinski_grb_2020_siva" />
+            app:srcCompat="@drawable/carinski_grb_2020_plava" />
 
         <TextView
             android:id="@+id/textViewNaslovna"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/naslovnaTekst"
-            android:textColor="#BF0000"
+            android:textColor="#D83C31"
             android:textSize="60sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -37,7 +37,7 @@
             android:id="@+id/buttonNewInput"
             android:layout_width="200dp"
             android:layout_height="70dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="80dp"
             android:backgroundTint="#D83C31"
             android:text="@string/naslovnaNewInputBtn"
             android:textSize="16sp"
@@ -71,5 +71,18 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/buttonMyInputs" />
+
+        <Button
+            android:id="@+id/buttonLink"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="#D83C31"
+            android:text="@string/link"
+            android:textSize="16sp"
+            app:cornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonCalculator" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

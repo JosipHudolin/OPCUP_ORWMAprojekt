@@ -35,5 +35,7 @@
     <string name="twoHundredEuro">200 EURO</string>
     <string name="calculate">IZRAČUNAJ</string>
     <string name="quantity">0</string>
-    <string name="iznos">Iznos</string>
+    <string name="iznos">IZNOS</string>
+    <string name="EURO">\u20ac</string>
+    <string name="link">MFIN</string>
 </resources>
