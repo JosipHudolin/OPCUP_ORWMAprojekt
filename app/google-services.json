@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "848472725978",
+    "project_id": "opcup-projekt",
+    "storage_bucket": "opcup-projekt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848472725978:android:9dade06b5bcfe185d008e3",
+        "android_client_info": {
+          "package_name": "com.example.opcup_zadnje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848472725978-lbqnhotir9vfoo6gsnapgpugusktan0s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIdHEc02lge9wCQ9nUDqKhFv514c289xU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848472725978-lbqnhotir9vfoo6gsnapgpugusktan0s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

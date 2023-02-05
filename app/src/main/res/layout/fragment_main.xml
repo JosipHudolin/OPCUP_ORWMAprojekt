@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#272F5E">
+
+        <ImageView
+            android:id="@+id/imageViewNaslovna"
+            android:layout_width="396dp"
+            android:layout_height="160dp"
+            android:contentDescription="@string/naslovnaSlika"
+            android:src="@drawable/ic_launcher_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/carinski_grb_2020_siva" />
+
+        <TextView
+            android:id="@+id/textViewNaslovna"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/naslovnaTekst"
+            android:textColor="#BF0000"
+            android:textSize="60sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewNaslovna" />
+
+        <Button
+            android:id="@+id/buttonNewInput"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="#D83C31"
+            android:text="@string/naslovnaNewInputBtn"
+            android:textSize="16sp"
+            app:cornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewNaslovna" />
+
+        <Button
+            android:id="@+id/buttonMyInputs"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="#D83C31"
+            android:text="@string/naslovnaMyInputsBtn"
+            android:textSize="16sp"
+            app:cornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonNewInput" />
+
+        <Button
+            android:id="@+id/buttonCalculator"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="#D83C31"
+            android:text="@string/naslovnaCalculatorBtn"
+            android:textSize="16sp"
+            app:cornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonMyInputs" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

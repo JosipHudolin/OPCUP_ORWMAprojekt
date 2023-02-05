@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">OPCUP_zadnje</string>
+    <string name="nameConstant">Ime stranke/tvrtke:</string>
+    <string name="addressConstant">Adresa:</string>
+    <string name="guiltyConstant">Rješenje:</string>
+    <string name="buttonDescriptionDelete">Delete</string>
+    <string name="buttonDescriptionEdit">Edit</string>
+    <string name="companyName">Ime</string>
+    <string name="companyAddress">Adresa</string>
+    <string name="guilty">Prekršaj</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="naslovnaSlika">Naslovna slika</string>
+    <string name="naslovnaTekst">OPCUP</string>
+    <string name="naslovnaNewInputBtn">NOVI UNOS</string>
+    <string name="naslovnaMyInputsBtn">MOJI UNOSI</string>
+    <string name="naslovnaCalculatorBtn">KALKULATOR</string>
+    <string name="radioPrekrsaj">Počinjen prekršaj</string>
+    <string name="radioBezPrekrsaja">Bez prekršaja</string>
+    <string name="input">UNESI</string>
+    <string name="back">NAZAD</string>
+    <string name="oneCent">1 CENT</string>
+    <string name="twoCent">2 CENT</string>
+    <string name="fiveCent">5 CENT</string>
+    <string name="tenCent">10 CENT</string>
+    <string name="twentyCent">20 CENT</string>
+    <string name="fiftyCent">50 CENT</string>
+    <string name="oneEuro">1 EURO</string>
+    <string name="twoEuro">2 EURO</string>
+    <string name="fiveEuro">5 EURO</string>
+    <string name="tenEuro">10 EURO</string>
+    <string name="twentyEuro">20 EURO</string>
+    <string name="fiftyEuro">50 EURO</string>
+    <string name="hundredEuro">100 EURO</string>
+    <string name="calculate">IZRAČUNAJ</string>
+    <string name="quantity">Količina</string>
+    <string name="iznos">Iznos</string>
+</resources>
