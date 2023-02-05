@@ -29,7 +29,7 @@ class NewInputFragment : Fragment(),RecyclerViewAdapter.ContentListener {
 
         qImageView.setImageResource(R.drawable.carinski_grb_2020_plava);
 
-        val prevBtn = view.findViewById<Button>(R.id.buttonBack)
+        val prevBtn = view.findViewById<Button>(R.id.buttonGetBack)
 
         prevBtn.setOnClickListener {
             val fragment = MainFragment()
@@ -54,7 +54,7 @@ class NewInputFragment : Fragment(),RecyclerViewAdapter.ContentListener {
             .addOnFailureListener{exception->
                 Log.w("MainActivity","Error getting documents.",exception)
             }
-        val inputBtn=view.findViewById<Button>(R.id.buttonInput)
+        val inputBtn=view.findViewById<Button>(R.id.buttonChange)
         val nameET=view.findViewById<TextInputEditText>(R.id.editName)
         val addressET=view.findViewById<TextInputEditText>(R.id.editAddress)
         val guiltyRG=view.findViewById<RadioGroup>(R.id.radioGroupGuilty)

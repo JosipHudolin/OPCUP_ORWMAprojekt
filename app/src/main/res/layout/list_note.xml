@@ -31,7 +31,7 @@
                 android:id="@+id/textViewNameConstant"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="start"
+                android:layout_gravity="start|center_vertical"
                 android:layout_marginStart="18dp"
                 android:layout_marginEnd="10dp"
                 android:text="@string/nameConstant"
@@ -40,13 +40,13 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textViewName"
-                android:layout_width="wrap_content"
+                android:id="@+id/textViewCompanyName"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_gravity="end"
-                android:layout_marginStart="8dp"
+                android:layout_gravity="start|center_vertical"
+                android:layout_weight="1"
                 android:text="@string/companyName"
-                android:textColor="@color/black"
+                android:textColor="#505050"
                 android:textSize="20sp" />
 
         </LinearLayout>
@@ -70,12 +70,13 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textViewAddress"
-                android:layout_width="wrap_content"
+                android:id="@+id/textViewCompanyAddress"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
+                android:layout_gravity="start|center_vertical"
+                android:layout_weight="1"
                 android:text="@string/companyAddress"
-                android:textColor="@color/black"
+                android:textColor="#505050"
                 android:textSize="20sp" />
 
         </LinearLayout>
@@ -102,10 +103,10 @@
                 android:id="@+id/textViewGuilty"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_marginStart="8dp"
+                android:layout_gravity="start|center_vertical"
+                android:layout_weight="1"
                 android:text="@string/guilty"
-                android:textColor="@color/black"
+                android:textColor="#505050"
                 android:textSize="20sp" />
 
         </LinearLayout>
@@ -117,10 +118,10 @@
 
             <ImageButton
                 android:id="@+id/deleteButton"
-                android:layout_width="48dp"
+                android:layout_width="100dp"
                 android:layout_height="48dp"
                 android:layout_gravity="start"
-                android:layout_marginStart="18dp"
+                android:layout_marginStart="50dp"
                 android:layout_marginEnd="8dp"
                 android:backgroundTint="#F44336"
                 android:contentDescription="@string/buttonDescriptionDelete"
@@ -129,19 +130,6 @@
                 app:layout_constraintEnd_toStartOf="@+id/deleteButton"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <ImageButton
-                android:id="@+id/buttonEdit"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:layout_gravity="end"
-                android:layout_marginStart="20dp"
-                android:layout_marginEnd="125dp"
-                android:backgroundTint="#F44336"
-                android:contentDescription="@string/buttonDescriptionEdit"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/editButton"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/baseline_edit_24" />
         </LinearLayout>
 
 

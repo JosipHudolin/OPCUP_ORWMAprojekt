@@ -38,4 +38,5 @@
     <string name="iznos">IZNOS</string>
     <string name="EURO">\u20ac</string>
     <string name="link">MFIN</string>
+    <string name="change">IZMIJENI</string>
 </resources>

@@ -3,11 +3,12 @@ package com.example.opcup_zadnje
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.EditText
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-enum class NoteClickType { EDIT, REMOVE, }
+enum class NoteClickType { REMOVE }
 
 class RecyclerViewAdapter (
     val notes: ArrayList<Note>,
@@ -45,11 +46,10 @@ class RecyclerViewAdapter (
     }
 
     class NoteViewHolder(val view: View): RecyclerView.ViewHolder(view) {
-        private val companyName = view.findViewById<TextView>(R.id.textViewName)
-        private val companyAddress = view.findViewById<TextView>(R.id.textViewAddress)
+        private val companyName = view.findViewById<TextView>(R.id.textViewCompanyName)
+        private val companyAddress = view.findViewById<TextView>(R.id.textViewCompanyAddress)
         private val guilty = view.findViewById<TextView>(R.id.textViewGuilty)
         private val deleteBtn = view.findViewById<ImageButton>(R.id.deleteButton)
-        private val editBtn = view.findViewById<ImageButton>(R.id.buttonEdit)
 
         fun bind(
             index: Int,
@@ -62,13 +62,6 @@ class RecyclerViewAdapter (
 
             deleteBtn.setOnClickListener {
                 listener.onNoteButtonClick(index, note, NoteClickType.REMOVE)
-            }
-
-            editBtn.setOnClickListener {
-                note.name = companyName.text.toString()
-                note.address = companyAddress.text.toString()
-                note.guilty = guilty.text.toString()
-                listener.onNoteButtonClick(index, note, NoteClickType.EDIT)
             }
         }
     }
