@@ -78,8 +78,8 @@ class NewInputFragment : Fragment(),RecyclerViewAdapter.ContentListener {
                 myAdapter.addNote(note)
             }
             Toast.makeText(context, "Note placed", Toast.LENGTH_SHORT).show()
-            nameET.setText("Ime")
-            addressET.setText("Adresa")
+            nameET.setText("")
+            addressET.setText("")
                 guiltyRB.setChecked(false)
                 notGuiltyRB.setChecked(false)
         }

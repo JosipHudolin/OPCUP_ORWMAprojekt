@@ -32,7 +32,8 @@
     <string name="twentyEuro">20 EURO</string>
     <string name="fiftyEuro">50 EURO</string>
     <string name="hundredEuro">100 EURO</string>
+    <string name="twoHundredEuro">200 EURO</string>
     <string name="calculate">IZRAČUNAJ</string>
-    <string name="quantity">Količina</string>
+    <string name="quantity">0</string>
     <string name="iznos">Iznos</string>
 </resources>
