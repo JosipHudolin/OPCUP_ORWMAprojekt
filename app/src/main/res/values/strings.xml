@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">OPCUP_zadnje</string>
+    <string name="app_name">OPCUP</string>
     <string name="nameConstant">Ime stranke/tvrtke:</string>
     <string name="addressConstant">Adresa:</string>
     <string name="guiltyConstant">Rješenje:</string>
